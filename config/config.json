@@ -1,0 +1,12 @@
+{
+	"size" : {
+		"rows" : 4,
+		"cols" : 4
+	},
+	"range" :{
+		"min" : 1,
+		"max" : 100
+	},
+	"limitGame" : 300,
+	"cardTime" : 2
+}

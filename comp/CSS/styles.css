@@ -1,0 +1,6 @@
+#memorama .card{
+	display: inline-block;
+	border: 2px solid gray;
+	padding: 20px;
+	margin: 10px;
+}
