@@ -1,6 +1,46 @@
+body {
+	margin-top:60px;
+	font-family: sans-serif;
+	animation: colorchange 25s infinite;
+	-webkit-animation: colorchange 25s infinite;
+}
+
+@keyframes colorchange{
+    0% {background: rgb(255,0,0);}
+    16.66% {background: rgb(255,255,0)}
+    33.33% {background: rgb(0,255,0)}
+    50% {background: rgb(0,255,255)}
+    66.66% {background: rgb(0,0,255)}
+    83.33% {background: rgb(255,0,255)}
+    100% {background: rgb(255,0,0)}
+ }
+
+  @-webkit-keyframes colorchange  {
+     0% {background: rgb(255,0,0);}
+    16.66% {background: rgb(255,255,0)}
+    33.33% {background: rgb(0,255,0)}
+    50% {background: rgb(0,255,255)}
+    66.66% {background: rgb(0,0,255)}
+    83.33% {background: rgb(255,0,255)}
+    100% {background: rgb(255,0,0)}
+ }
+#wrapper{
+	width: 21%;
+	margin: 0px auto;
+}
+h1{
+	text-align: center;
+}
 #memorama .card{
+	width: 35px;
+	text-align: center;
 	display: inline-block;
 	border: 2px solid gray;
 	padding: 20px;
 	margin: 10px;
+	background: linear-gradient(45deg, #07496121, #80bbbf);
+}
+#memorama .card span{
+	font-size: 30px;
+	visibility: hidden;
 }
